@@ -5,7 +5,8 @@ body {
 
 #youtube {
     -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;border-radius: 12px;-moz-box-shadow: 4px 4px 14px #000;-webkit-box-shadow: 4px 4px 14px #000;box-shadow: 4px 4px 14px #000;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
 }
 
 header {
@@ -18,9 +19,8 @@ header {
 }
 
 #y-vid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 a {
